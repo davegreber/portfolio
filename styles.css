@@ -150,6 +150,19 @@ body {
     font-style: italic;
     color: var(--main-red);
   }
+  
+  #logo {
+  position:fixed; 
+	top:0; 
+	left:0; 
+  height: 3rem;
+  z-index: 11;
+  }
+
+  #logo > img {
+    height: 10rem;
+  }
+
 
 /* Projects section */
 
@@ -205,7 +218,7 @@ body {
       }
 
       .project:hover .code {
-        color: #ff7f50;
+        color: #eded02;
       }
       
       .project-image {
